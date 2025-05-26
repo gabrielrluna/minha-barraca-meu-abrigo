@@ -66,13 +66,13 @@ nav{
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-#doe{
+#clube{
     background-image: url(../assets/img/barracas.jpg);
     background-size: cover;
     /* background-color: black; */
     /* background-attachment: fixed; */
 }
 
-#doeContracapa{
+#clubeContracapa{
     background-color: rgba(0,0,0,0.6);
 }
