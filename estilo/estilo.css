@@ -69,10 +69,10 @@ nav{
 #clube{
     background-image: url(../assets/img/barracas.jpg);
     background-size: cover;
-    /* background-color: black; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 #clubeContracapa{
     background-color: rgba(0,0,0,0.6);
+
 }
