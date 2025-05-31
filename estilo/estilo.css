@@ -29,15 +29,7 @@ nav{
     background-color: rgba(0,0,0,0.8);
 }
 
-#progresso{
-    width: 20%;
-    transition: 5s;
-}
 
-#progresso:focus{
-        width: 70%;
-
-}
 
 #mbma{
     filter: drop-shadow(5px 5px 10px #000000);
