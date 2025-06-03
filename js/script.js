@@ -1,3 +1,76 @@
+const unidades = [
+  {
+    "unidade":"Nebulosa",
+    "idade":"10 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Rigel",
+    "idade":"11 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Bellatrix",
+    "idade":"12 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Saiph",
+    "idade":"13 e 14 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Sigma",
+    "idade":"15 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Hatsya",
+    "idade":"10 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Meissa",
+    "idade":"11 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Alnilan",
+    "idade":"12 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"Alnitak",
+    "idade":"13 e 14 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+  {
+    "unidade":"M78",
+    "idade":"15 anos",
+    "conselheiros":"xyz",
+    "instrutores":"xyzda"
+  },
+
+]
+
+function unidadeModal(unidadeNum){
+  var unidadeAr = unidades[unidadeNum];
+    console.log(unidadeAr.unidade);
+
+  $("#conteudoModal").html("Unidade: "+unidadeAr.unidade);
+}
+
+//Script Carrossel - Direçao
+
 const wrapperDup = document.querySelector(".wrapperDup");
 const carouselDup = document.querySelector(".carouselDup");
 const arrowBtnsDup = document.querySelectorAll(".wrapperDup i");
