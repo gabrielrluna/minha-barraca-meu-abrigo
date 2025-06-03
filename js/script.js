@@ -3,70 +3,83 @@ const unidades = [
     "unidade":"Nebulosa",
     "idade":"10 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":""
   },
   {
     "unidade":"Rigel",
     "idade":"11 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"Bellatrix",
     "idade":"12 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"Moral! Moral! Moral! Moral! Moral!<br>Moral do batalhão! Bellatrix é a força, poder e União!<br>Bellatrix é moral! Moral do batalhão!<br> Guerra nosso lema, vontade e tradição!<br>E na nossa unidade não tem moleza não!<br>Na terra, no céu, seja onde for,<br>Unidade Bellatrix mostrando seu Valor!<br>Bella! Bella! Bellatrix!<br>Fé em Deus que Ele é justo! (2x)<br> Se Deus é por nós, quem será contra nós (2x)<br>Unidos Venceremos (2x)<br>1, 2, 3, Bella!"
   },
   {
     "unidade":"Saiph",
     "idade":"13 e 14 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"Sigma",
     "idade":"15 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"Hatsya",
     "idade":"10 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"Meissa",
     "idade":"11 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"Alnilan",
     "idade":"12 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"Alnitak",
     "idade":"13 e 14 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
   {
     "unidade":"M78",
     "idade":"15 anos",
     "conselheiros":"xyz",
-    "instrutores":"xyzda"
+    "instrutores":"xyzda",
+    "grito":"xyzda"
   },
 
 ]
 
 function unidadeModal(unidadeNum){
   var unidadeAr = unidades[unidadeNum];
-    console.log(unidadeAr.unidade);
+    // console.log(unidadeAr.unidade);
 
-  $("#conteudoModal").html("Unidade: "+unidadeAr.unidade);
+  $(".modal-title").html("Unidade: "+unidadeAr.unidade)
+  $("#conteudoModal").html("<p><b>Unidade: "+unidadeAr.unidade+"</b></p><p><b></b>Idade: "+unidadeAr.idade+"</b></p><p><b></b>Conselheiros: "+unidadeAr.conselheiros+"</b></p><p><b></b>Instrutores: "+unidadeAr.instrutores+"</b></p>");
+  $("#grito").html("<h4>Grito de Guerra</h4>"+unidadeAr.grito);
+
 }
 
 //Script Carrossel - Direçao
