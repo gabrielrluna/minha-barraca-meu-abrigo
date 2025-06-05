@@ -19,7 +19,7 @@ nav{
 }
 
 #capa{
-    background-image: url(../assets/img/barraca-topo.jpg);
+    background-image: url(../assets/img/barraca-topo.webp);
     background-size: cover;
     /* background-color: black; */
     background-attachment: fixed;
@@ -47,7 +47,7 @@ nav{
 }
 
 #razoes{
-    background-image: url(../assets/img/bandeira.jpg);
+    background-image: url(../assets/img/bandeira.webp);
     background-size: cover;
     background-position-y: -160px ;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ nav{
 }
 
 #clube{
-    background-image: url(../assets/img/barracas.jpg);
+    background-image: url(../assets/img/barracas.webp);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -193,4 +193,22 @@ border-radius: 50%;
     .wrapperDup .carouselDup{
     grid-auto-columns: 100%;
     }
+
+    #capa{
+        background-size: cover;
+        background-position-x: center;
+
+        
+    }
+
+    #razoes{
+        background-position-y: 0px ;
+        background-position-x: center ;
+
+    }
+
+
+    
+
+
 }
